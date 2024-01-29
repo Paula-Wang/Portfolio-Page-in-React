@@ -14,7 +14,10 @@ export default function HeroSection() {
                     <br /> I think VR/AR is a very underrated upcoming technology. It has many great uses and should be tapped into more.
                     </p>   
                 </div>
-                <button className="btn btn-primary">Get in Touch</button>
+                <button className="btn btn-primary">Get In Touch</button>
+            </div>
+            <div className="hero--section--img">
+                <img src="./img/hero_img.png" alt="Hero Section" />
             </div>
 
         </section>
