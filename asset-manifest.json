@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Paula-Wang/portfolio-page-in-react/static/css/main.98e3b733.css",
+    "main.js": "/Paula-Wang/portfolio-page-in-react/static/js/main.9aaf9a83.js",
+    "index.html": "/Paula-Wang/portfolio-page-in-react/index.html",
+    "main.98e3b733.css.map": "/Paula-Wang/portfolio-page-in-react/static/css/main.98e3b733.css.map",
+    "main.9aaf9a83.js.map": "/Paula-Wang/portfolio-page-in-react/static/js/main.9aaf9a83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98e3b733.css",
+    "static/js/main.9aaf9a83.js"
+  ]
+}
