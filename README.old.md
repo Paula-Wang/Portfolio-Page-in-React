@@ -2,6 +2,7 @@
 https://paula-wang.github.io/portfolio-page-in-react/ (I have deployed the app but when the link is clicked, the page is rendering blank- a white page)
 
 **Questions**
+
 1.What is NPM? NPM – or "Node Package Manager" – is the default package manager for JavaScript's runtime Node.js.
 
 2.What is SPA? A single-page application (SPA) is a Web app that is presented to the user through a single HTML page to be more responsive and to more closely replicate a desktop application or a native app. 
