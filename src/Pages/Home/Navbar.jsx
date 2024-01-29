@@ -47,18 +47,60 @@ function Navbar() {
         <div className={`navbar--items ${navActive ? "active" : ""}`}>
             <ul>
                 <li>
-                   <Link onClick={closeMenu}
-                   activeClass="navBar--active-content"
+                   <Link 
+                   onClick={closeMenu}
+                   activeClass="navbar--active-content"
                    spy={true}
                    smooth={true}
                    offset={-70}
                    duration={500}
                    to="heroSection"
                    className="navbar--content"
-                   >Home</Link> 
+                   >
+                    Home
+                    </Link> 
+                </li>
+                <li>
+                   <Link 
+                   onClick={closeMenu}
+                   activeClass="navbar--active-content"
+                   spy={true}
+                   smooth={true}
+                   offset={-70}
+                   duration={500}
+                   to="MyProjects"
+                   className="navbar--content"
+                   >
+                    Projects
+                    </Link> 
+                </li>
+                <li>
+                   <Link 
+                   onClick={closeMenu}
+                   activeClass="navbar--active-content"
+                   spy={true}
+                   smooth={true}
+                   offset={-70}
+                   duration={500}
+                   to="About Me"
+                   className="navbar--content"
+                   >
+                    About Me
+                    </Link> 
                 </li>
                 </ul>  
         </div>
+        <Link 
+        onClick={closeMenu}
+        activeClass="navBar--active-content"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        to="Contact"
+        className="btn btn-outline-primary">
+          Contact Me
+          </Link>
     </nav>
     );
 }
