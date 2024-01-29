@@ -1,23 +1,23 @@
 # portfolio-page-in-react
 https://paula-wang.github.io/portfolio-page-in-react/ (I have deployed the app but when the link is clicked, the page is rendering blank- a white page)
 **Questions**
-What is NPM? NPM – or "Node Package Manager" – is the default package manager for JavaScript's runtime Node.js.
+1.What is NPM? NPM – or "Node Package Manager" – is the default package manager for JavaScript's runtime Node.js.
 
-What is SPA? A single-page application (SPA) is a Web app that is presented to the user through a single HTML page to be more responsive and to more closely replicate a desktop application or a native app. 
+2.What is SPA? A single-page application (SPA) is a Web app that is presented to the user through a single HTML page to be more responsive and to more closely replicate a desktop application or a native app. 
 
-What is the event loop? An event loop is something that pulls stuff out of the queue and places it onto the function execution stack whenever the function stack becomes empty.
+3.What is the event loop? An event loop is something that pulls stuff out of the queue and places it onto the function execution stack whenever the function stack becomes empty.
 
-What is the difference between export x and export default x? How do you import them differently? 
+4.What is the difference between export x and export default x? How do you import them differently? 
 If you only need to export a single value from a module, or if the module represents a main feature of your application, use export default.
 If you need to export multiple values from a module, or if you want to organize your code into smaller, reusable components, use export with named exports.
 
-Why do you use className as a property in React and not class? class is a reserved keyword in JavaScript and since JSX is used in React which itself is the extension of JavaScript, className has to be used instead of class attribute.
+5.Why do you use className as a property in React and not class? class is a reserved keyword in JavaScript and since JSX is used in React which itself is the extension of JavaScript, className has to be used instead of class attribute.
 
-Why should you not write the following? What will happen?
+6.Why should you not write the following? What will happen?
 <button onClick={setCounter(counter + 1)}> +1 </button>
 you are invoking the setCount function immediately when rendering the component, rather than passing it as a callback function to the onClick event handler.It just passes the same value over and over to setCount.
 
-What is object deconstruction and how is it connected to React components (example)?
+7.What is object deconstruction and how is it connected to React components (example)?
 Destructuring was introduced in ES6. It’s a JavaScript feature that allows us to extract multiple pieces of data from an array or object and assign them to their own variables.it can greatly simplify how you write props in React. Here is an example:
 
 import React from 'react';
@@ -43,10 +43,10 @@ const MyComponentWithDestructuring = ({ name, age }) => {
 };
 
 
-How is it possible to use HTML and JavaScript in the same function (like in a React Component)? What makes it possible under the hood?
+8.How is it possible to use HTML and JavaScript in the same function (like in a React Component)? What makes it possible under the hood?
 It uses a combination of HTML-like syntax called JSX and JavaScript code.
 
-What is async/await? Bring an example
+9.What is async/await? Bring an example
 The async keyword is used with a function to represent that the function is an asynchronous function. The async function returns a promise. Here is an example:
 
 // async function example
@@ -79,7 +79,7 @@ async function asyncFunc() {
 // calling the async function
 asyncFunc();
 
-What is a Promise? Bring an example
+10.What is a Promise? Bring an example
 A promise is a good way to handle asynchronous operations. It is used to find out if the asynchronous operation is successfully completed or not.
 
 A promise may have one of three states.
