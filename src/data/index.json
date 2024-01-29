@@ -1,0 +1,34 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src":".img/product-chain-1.png",
+            "title": "HTML",
+            "description": "Experienced"
+        },
+        {
+            "id": "2",
+            "src":".img/tag-1.png",
+            "title": "CSS",
+            "description": "Experienced"
+        },
+        {
+            "id": "3",
+            "src":".img/feather-pen-2.png",
+            "title": "Java",
+            "description": "Basic"
+        },
+        {
+            "id": "4",
+            "src":"./feather-pen-1.png",
+            "title": "C++",
+            "description": "Intermediate"
+        },
+        {
+            "id": "5",
+            "src":"./product-chain-1.png",
+            "title": "Kotlin",
+            "description": "Intermediate"
+        }
+    ]
+}
