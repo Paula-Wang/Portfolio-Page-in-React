@@ -44,6 +44,21 @@ function Navbar() {
             <span className="nav__hamburger__line"></span>
             <span className="nav__hamburger__line"></span>
         </a>
+        <div className={`navbar--items ${navActive ? "active" : ""}`}>
+            <ul>
+                <li>
+                   <Link onClick={closeMenu}
+                   activeClass="navBar--active-content"
+                   spy={true}
+                   smooth={true}
+                   offset={-70}
+                   duration={500}
+                   to="heroSection"
+                   className="navbar--content"
+                   >Home</Link> 
+                </li>
+                </ul>  
+        </div>
     </nav>
     );
 }
