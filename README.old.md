@@ -1,5 +1,6 @@
 # portfolio-page-in-react
 https://paula-wang.github.io/portfolio-page-in-react/ (I have deployed the app but when the link is clicked, the page is rendering blank- a white page)
+
 **Questions**
 1.What is NPM? NPM – or "Node Package Manager" – is the default package manager for JavaScript's runtime Node.js.
 
