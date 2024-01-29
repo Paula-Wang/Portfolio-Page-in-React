@@ -105,3 +105,38 @@ h2 {
     font-weight: 700;
     line-height: 58px;
 }
+
+/* Heading 3 */
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+/* Paragraphs text large medium small*/
+/* Body 1*/
+.text-lg {
+    color: var(--darkblue);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* Body 2 */
+.text-lg {
+    color: var(--darkblue);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* Body 3 */
+.text-lg {
+    color: var(--darkblue);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
