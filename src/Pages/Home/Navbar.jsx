@@ -24,6 +24,22 @@ function Navbar() {
 
         return () => {
             window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
+    useEffect(() => {
+        if (window.innerWidth <= 1200) {
+            closeMenu;
         }
-    })
+    }, []);
+
+    return (
+    <nav className={`navbar ${navActive? "active": ""}`}>
+        <div>
+            <img src="./img/logo.svg" alt="Logoipsum" />
+        </div>
+    </nav>
+    );
 }
+
+export default Navbar;
