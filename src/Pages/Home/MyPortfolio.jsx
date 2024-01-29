@@ -1,18 +1,15 @@
 import data from "../../data/index.json";
 
-export default function MyProjects() {
-    return <section className="portfolio--section" id="MyProjects">
-        <div className="portfolio--container-box">
-            <div className="portfolio--container">
-                <p className="sub--title">
-                    Recent Projects
-                </p>
-                <h2 className="section--heading">
-                    My Projects
-                </h2>
-            </div>
-            <div>
-            <button className="btn btn-github">
+export default function MyPortfolio() {
+  return (
+    <section className="portfolio--section" id="MyPortfolio">
+      <div className="portfolio--container-box">
+        <div className="portfolio--container">
+          <p className="sub--title">Recent Projects</p>
+          <h2 className="section--heading">My Portfolio</h2>
+        </div>
+        <div>
+          <button className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -29,25 +26,20 @@ export default function MyProjects() {
             </svg>
             Visit My GitHub
           </button>
-            </div>
         </div>
-        <div className="portfolio--section--container">
-            {data?.MyProjects?.map((item, index)=> (
-                <div key={index} 
-                className="portfolio--section--card">
-                    <div className="portfolio--section--img">
-                        <img src={item.img} alt="" />
-                    </div>
-                    <div className="portfolio--section--card--contact">
-                        <div>
-                            <h3 className="portfolio--section--title">
-                                {item.title}
-                            </h3>
-                            <p className="text-md">
-                                {item.description}
-                            </p>
-                        </div>
-                        <p className="text-sm portfolio--link">
+      </div>
+      <div className="portfolio--section--container">
+        {data?.portfolio?.map((item, index) => (
+          <div key={index} className="portfolio--section--card">
+            <div className="portfolio--section--img">
+              <img src={item.src} alt="Placeholder" />
+            </div>
+            <div className="portfolio--section--card--content">
+              <div>
+                <h3 className="portfolio--section--title">{item.title}</h3>
+                <p className="text-md">{item.description}</p>
+              </div>
+              <p className="text-sm portfolio--link">
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -65,9 +57,10 @@ export default function MyProjects() {
                   />
                 </svg>
               </p>
-                    </div>
-                </div>
-            ))}
-        </div>
-    </section>;
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }

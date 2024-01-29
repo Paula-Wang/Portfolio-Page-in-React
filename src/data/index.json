@@ -24,5 +24,21 @@
         "title": "JavaScript",
         "description": "Basic"
       }
+    ],
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/placeholder-image.jpg",
+        "title": "FAMA",
+        "description": "This project is a web application that connects farmers to stakeholders directly without the need for a broker.",
+        "link":"View in Github"
+      },
+      {
+        "id": "2",
+        "src": "./img/placeholder-image-1.jpg",
+        "title": "Automated IoT-Based Irrigation System",
+        "description": "This project is a web-based application that helps farmers use water sparingly by having an automatic irrigation system that uses a soil moisture sensor to detect the level of water in the soil",
+        "link":"View in Github"
+      }
     ]
   }
